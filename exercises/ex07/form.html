@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <title>Questionnaire</title>
+</head>
+
+<body>
+
+    <!-- TODO Your form here. -->
+     <form action="https://echo.trex-sandwich.com">
+        <fieldset>
+            <legend>Your details</legend>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="Name"><br><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="Email"><br><br>
+        <label for="city">Your city:</label><br>
+        <input type="text" id="city" name="City"><br>
+    </fieldset>
+    <fieldset>
+        <legend>Questionnaire</legend>
+        <p>How are you finding this course? Tick all applicable</p>
+        <input type="checkbox" id="1" name="enjoy"> 
+        <label for="1">Enjoying it</label>
+        <input type="checkbox" id="2" name="challenge"> 
+        <label for="2">Challenge</label>
+        <input type="checkbox" id="3" name="still catching up"> 
+        <label for="3">Still catching up</label>
+        <input type="checkbox" id="4" name="too hard"> 
+        <label for="4">Too hard</label>
+        <input type="checkbox" id="5" name="to many exercises"> 
+        <label for="5">Too many exercises</label>
+        <input type="checkbox" id="6" name="exercise not enough"> 
+        <label for="6">Not enough exercises</label>
+        <input type="checkbox" id="7" name="confused"> 
+        <label for="7">Confused</label>
+
+        <p>Choice the one that best describes your experience so far</p>
+        <div>
+        <input type="radio" id="8" name="feeling" value="Learning a lot">
+        <label for="8">Learning a lot</label>
+        <input type="radio" id="9" name="feeling" value="Not learning enough">
+        <label for="9">Not learning enough</label>
+        <input type="radio" id="10" name="feeling" value="Okay">
+        <label for="10">Okay</label>
+    </div>
+    <br>
+    <label for="animal">Pick your favorite animal:</label> <select name="animal" id="animal">
+        <option value="Maderian duck">Maderian duck</option>
+        <option value="Quokka">Quokka</option>
+        <option value="Wombat">Wombat</option>
+        <option value="Lynx">Lynx</option>
+        <option value="Pika">Pika</option>
+        <option value="Red panda">Red panda</option></select>
+     <br><br>
+        <textarea id="comment" name="comment_text" rows="8" cols="40">Additional comments here</textarea>
+
+    </fieldset>
+    <input type="submit" id="done" >
+    <input type="reset" id="clear" >
+     </form>
+
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tables example</title>
+
+    <!--
+        This links to the stylesheet file defining the look & feel
+        of our tables. You don't need to worry about this now - we'll
+        cover it in our next lab :)
+    -->
+    <link rel="stylesheet" href="./tables.css">
+</head>
+
+<body>
+
+    <h3>3 times table</h3>
+
+    <table>
+        <tr>
+           <th>n</th>
+           <th>3 x n</th> 
+        </tr>
+        <tr>
+            <td>1</td> <td>3</td>
+        </tr>
+        <tr>
+            <td>2</td> <td>6</td>
+        </tr>
+        <tr>
+            <td>3</td> <td>9</td>
+        </tr>
+        <tr>
+            <td>4</td>  <td>12</td>
+        </tr>
+        <tr>
+            <td>5</td> <td>15</td>
+        </tr>
+        <tr>
+            <td>6</td><td>18</td>
+        </tr>
+        <tr>
+            <td>7</td> <td>21</td>
+        </tr>
+        <tr>
+            <td>8</td> <td>24</td>
+        </tr>
+        <tr>
+            <td>9</td> <td>27</td>
+        </tr>
+        <tr>
+            <td>10</td> <td>30</td>
+        </tr>
+
+    </table>
+
+    <h3>Order sheet</h3>
+
+    <table>
+        <caption>A complex table</caption>
+        <tr><th colspan="3">   Invoice #987654321   </th><th>31st February,2019</th></tr>
+        <tr><td colspan="2"><strong>Pay to:</strong>
+            <p>Buy & Large ltd.</p>
+            <p>123 Some St</p>
+            <p>Nowhereville,NZ,999</p>
+        </td>
+        <td colspan="2"><strong>Customer:</strong>
+            <p>Wlater White</p>
+            <p>308 Nega Arroyo Lane</p>
+            <p>Albuquerque,NM 87104</p>
+        </tr>
+        <tr><th>Name / Description</th><th>Qty.</th><th>@</th><th>Cost</th></tr>
+        <tr><td>Test tubes</td><td>30</td><td>2.50</td><td>75.00</td></tr>
+        <tr><td>Flasks</td><td>10</td><td>5.0</td><td>50.00</td></tr>
+
+        <tr><th colspan="3">Subtotal</th><td>125.0</td></tr>
+        <tr><th colspan="2">Tax</th><td>8%</td><td>10.00</td></tr>
+        <tr><th colspan="3">Grand Total</th><td>$ 135.00</td></tr>
+        
+    </table>
+
+</body>
+
+</html>
